@@ -1,0 +1,29 @@
+#=====================#
+#=====================#
+#=====          ======#
+#=====  CLIENT  ======#
+#=====          ======#
+#=====================#
+#=====================#
+development:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: sk_web_development
+  username: 'deploy'
+  password: 'puropsql'
+  timeout: 450000
+  pool: 5
+
+
+production:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: sk_web_production
+  username: 'deploy'
+  password: 'puropsql'
+  timeout: 450000
+  pool: 5
+#=====================#
+#=====================#
